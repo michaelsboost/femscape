@@ -1,0 +1,36 @@
+{
+  "theme_color": "#13171f",
+  "background_color": "#13171f",
+  "display": "standalone",
+  "start_url": "./index.html",
+  "lang": "en-US",
+  "name": "Femscape",
+  "short_name": "Femscape",
+  "description": "An evidence-linked, dark-only feminism learning and advocacy app with 20 talks and films, a video lightbox, illustrative global statistic counter, History & Change, When Harm Becomes Normal, an advocacy calendar, searchable resources, community action, share, and support links.",
+  "icons": [
+    {
+      "src": "./imgs/logo-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./imgs/logo-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./imgs/logo-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./imgs/logo-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

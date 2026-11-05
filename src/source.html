@@ -1,0 +1,39 @@
+<!-- Femscape | Independent learning app, adapted for kodeWeave -->
+<div id="eg-app" class="eg-app" data-theme="dark">
+  <a class="eg-skip" href="#eg-screen">Skip to main content</a>
+  <aside class="eg-sidebar" id="eg-mobile-nav" aria-label="App navigation">
+    <button class="eg-brand" type="button" data-route="home" aria-label="Femscape overview">
+      <span class="eg-brand-symbol" aria-hidden="true"><img src="imgs/logo.png" width="54" height="54" alt="" loading="eager" decoding="async"></span><span><strong>Fem<span>scape</span></strong><small>See the reality. Take action.</small></span>
+    </button>
+    <div class="eg-side-caption">THE GUIDE</div>
+    <nav class="eg-side-nav" aria-label="Primary">
+      <button type="button" data-nav="home" data-route="home"><span class="eg-nav-icon">◈</span> Overview</button>
+      <button type="button" data-nav="learn" data-route="learn"><span class="eg-nav-icon">▤</span> Learning path</button>
+      <button type="button" data-nav="practice" data-route="practice"><span class="eg-nav-icon">◎</span> Practice lab</button>
+      <button type="button" data-nav="films" data-route="films"><span class="eg-nav-icon">▷</span> Films &amp; talks</button>
+      <button type="button" data-nav="patterns" data-route="patterns"><span class="eg-nav-icon">◉</span> When Harm Becomes Normal</button>
+      <button type="button" data-nav="history" data-route="history"><span class="eg-nav-icon">⌛</span> History &amp; Change</button>
+      <button type="button" data-nav="calendar" data-route="calendar"><span class="eg-nav-icon">▦</span> Advocacy Calendar</button>
+      <button type="button" data-nav="resources" data-route="resources"><span class="eg-nav-icon">⌁</span> Resources</button>
+      <button type="button" data-nav="quiz" data-route="quiz"><span class="eg-nav-icon">✦</span> Knowledge check</button>
+      <button type="button" data-nav="myths" data-route="myths"><span class="eg-nav-icon">?</span> Common questions</button>
+      <button type="button" data-nav="glossary" data-route="glossary"><span class="eg-nav-icon">Aa</span> Glossary</button>
+      <button type="button" data-nav="sources" data-route="sources"><span class="eg-nav-icon">↗</span> Evidence library</button>
+      <button type="button" data-nav="plan" data-route="plan"><span class="eg-nav-icon">✓</span> Action plan</button>
+    </nav>
+    <a class="fs-side-download" href="docs/feminism_master_sheet.pdf" download="Femscape-Feminism-Master-Debate-Sheet.pdf" aria-label="Download the Femscape feminism master debate sheet PDF">↓ Free master debate sheet (PDF)</a>
+    <div class="eg-side-progress" aria-label="Lesson progress"><div class="eg-side-progress-top"><span>Your learning</span><strong id="eg-sidebar-percent">0%</strong></div><div class="eg-side-progress-track"><div id="eg-sidebar-progress" style="width:0%"></div></div><p id="eg-sidebar-ratio">0 of 12 lessons</p></div>
+    <div class="eg-side-bottom"><a class="fs-nav-donate" href="https://michaelsboost.com/donate" target="_blank" rel="noopener noreferrer">♥ Donate</a><button type="button" data-action="share">↗ Share Femscape</button><button type="button" data-nav="help" data-route="help"><span>♡</span> Support &amp; safety</button><button type="button" data-nav="about" data-route="about"><span>i</span> About the app</button></div>
+    <div class="eg-side-credit">Independent · Private<br><a href="femscape-source-v1.3.zip" download>Source code</a> · <a href="https://michaelsboost.com/govegan/" target="_blank" rel="noopener noreferrer">Go Vegan ↗</a></div>
+  </aside>
+  <div class="eg-main-shell">
+    <header class="eg-topbar">
+      <div class="eg-topbar-left"><button class="eg-menu-button" type="button" id="eg-menu-btn" data-action="menu" aria-label="Open menu" aria-controls="eg-mobile-nav" aria-expanded="false"><span></span><span></span><span></span></button><span class="eg-breadcrumb">THE GUIDE <span class="eg-crumb-slash">/</span> <strong id="eg-current-label">Overview</strong></span></div>
+      <div class="eg-topbar-right"><a class="fs-top-donate" href="https://michaelsboost.com/donate" target="_blank" rel="noopener noreferrer">♥ Donate</a><button type="button" data-action="share" aria-label="Share Femscape">↗ Share</button><a href="femscape-source-v1.3.zip" download>Source code</a><a href="https://michaelsboost.com/govegan/" target="_blank" rel="noopener noreferrer">Go Vegan ↗</a></div>
+    </header>
+    <main class="eg-main" id="eg-screen" tabindex="-1" aria-label="Femscape learning content"></main>
+    <footer class="eg-footer"><p>Femscape · Learn. Reflect. Act.</p><div><a href="https://michaelsboost.com/donate" target="_blank" rel="noopener noreferrer">♥ Donate</a><span>·</span><button type="button" data-action="share">Share</button><span>·</span><button type="button" data-route="calendar">Advocacy Calendar</button><span>·</span><button type="button" data-route="history">History</button><span>·</span><a href="femscape-source-v1.3.zip" download>Source code</a><span>·</span><a href="https://michaelsboost.com/govegan/" target="_blank" rel="noopener noreferrer">Go Vegan — Sister App</a><span>·</span><a href="docs/feminism_master_sheet.pdf" download="Femscape-Feminism-Master-Debate-Sheet.pdf">Master sheet PDF</a><span>·</span><button data-route="sources" type="button">Sources</button><span>·</span><button data-route="about" type="button">About</button></div></footer>
+  </div>
+  <div class="fs-film-modal" id="fs-film-modal" role="dialog" aria-modal="true" aria-labelledby="fs-film-modal-title" hidden><div class="fs-film-dialog" id="fs-film-dialog-body"></div></div>
+  <div id="eg-toast" class="eg-toast" role="status" aria-live="polite"></div>
+</div>

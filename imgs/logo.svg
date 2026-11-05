@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="70 39 372 372" role="img" aria-labelledby="title desc">
+<title id="title">Femscape logo</title><desc id="desc">Stylized woman profile framed by a gradient circle with no background </desc>
+<defs>
+<linearGradient id="pink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#bb69ed"/><stop offset=".45" stop-color="#eb6bba"/><stop offset="1" stop-color="#fa348f"/></linearGradient>
+<linearGradient id="hair" x1="0" y1=".12" x2="1" y2=".85"><stop stop-color="#c082ff"/><stop offset=".5" stop-color="#e65bb7"/><stop offset="1" stop-color="#ff419e"/></linearGradient>
+<radialGradient id="dark"><stop stop-color="#322139"/><stop offset="1" stop-color="#14131f"/></radialGradient>
+</defs>
+<circle cx="256" cy="227" r="166" fill="none" stroke="url(#pink)" stroke-width="17"/>
+<!-- Flowing hair shapes -->
+<path d="M314 103 C252 99 208 118 172 171 C146 210 157 259 179 298 C188 320 181 349 166 368 C216 348 238 314 236 274 C230 220 256 154 314 103Z" fill="url(#hair)"/>
+<path d="M309 109 C257 111 210 150 197 197 C188 231 205 264 201 301 C197 322 192 339 182 351 C237 323 249 270 248 239 C249 188 266 152 309 109Z" fill="#7a3f9c" opacity=".55"/>
+<path d="M325 108 C266 117 250 151 239 191 C228 229 250 267 235 320 C228 344 214 364 204 373 C274 352 291 294 280 244 C274 207 277 168 325 108Z" fill="#ff78c1"/>
+<!-- Profile, facing right -->
+<path d="M312 135 C343 138 364 161 370 190 C376 211 365 224 374 237 C378 242 384 249 388 252 C394 257 390 263 382 267 L370 272 C366 292 354 306 331 307 C318 312 317 326 322 341 C284 345 250 323 237 293 C224 264 223 226 234 197 C246 163 273 135 312 135Z" fill="#fff3fa"/>
+<!-- Eyelash and brow -->
+<path d="M341 219q11-8 23-3" fill="none" stroke="#432241" stroke-width="5" stroke-linecap="round"/>
+<path d="M353 222l9-6" stroke="#432241" stroke-width="3" stroke-linecap="round"/>
+<!-- Facelike fringe -->
+<path d="M312 132 C285 134 269 159 264 175 C252 199 259 228 241 245 C232 218 235 176 252 154 C267 133 288 122 312 132Z" fill="url(#hair)"/>
+<path d="M260 148 C223 177 219 218 225 252 C228 285 212 333 190 357" fill="none" stroke="#f6a3da" stroke-width="13" stroke-linecap="round"/>
+<path d="M281 132 C243 172 245 214 250 252 C258 304 239 351 215 371" fill="none" stroke="#b766ee" stroke-width="10" stroke-linecap="round" opacity=".8"/>
+</svg>
